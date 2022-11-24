@@ -9,6 +9,7 @@ body{
         wheat
     ) 100% no-repeat ;
     background-size:100%  ;
+    background-attachment: fixed;
 }
 .container {
     width: 70%;
@@ -65,13 +66,32 @@ img  {
 }
 @keyframes shake{
     0%{
-        transform: rotate(8deg);
+        transform: rotate(15deg);
     }
     50%{
-        transform: rotate(-8deg);
+        transform: rotate(-15deg);
     }
     100%{
-        transform: rotate(8deg);
+        transform: rotate(15deg);
     }
 }
+p.copyright {
+    color: rgb(13, 12, 12);
+    line-height: 40px;
+    font-size: 20px;
+    padding: 15px;
+    padding-left:5%;
+}
+.contact{
+    align-items: center;
+    padding: 50px;
+    
+}
+
+form{
+    text-align: center;
+    padding: 60px;
+
+}
+    
     
